@@ -81,6 +81,45 @@ vista de como iria en la terminal de vscode:
 
 ![image](https://github.com/danielgallo78/GitFlow-en-GitHub/assets/130160711/ba918e9b-63b9-490b-b686-a26f051a0359)
 
+paso siguiente: uso el comando HOTFIX
+
+y agrego un tag o etiqueta para identificar versiones etc,
+
+
+Dentro de main en el gitbash
+
+Git tag -a v1.1.0 -m "version 1.1.0"
+
+![image](https://github.com/danielgallo78/GitFlow-en-GitHub/assets/130160711/739f99e5-4ed4-498e-a5dd-da18fd90a8df)
+
+Veo que ya tengo agregado el tag con la version
+
+![image](https://github.com/danielgallo78/GitFlow-en-GitHub/assets/130160711/a7a2b726-7aeb-4995-ac1d-e3b5f8adfe32)
+
+
+![image](https://github.com/danielgallo78/GitFlow-en-GitHub/assets/130160711/4edc4c8f-39a9-4d6e-9fb4-f477a020963b)
+
+
+Hasta aca fue integrado a main ahora tengo que integrarlo a develop
+Pull request a develop:
+
+![image](https://github.com/danielgallo78/GitFlow-en-GitHub/assets/130160711/8069c698-17ab-4590-824f-f421eaf4c635)
+
+• Base: develop
+• Compare: main
+
+![image](https://github.com/danielgallo78/GitFlow-en-GitHub/assets/130160711/a2c67b0e-0d4f-4eb3-96b1-96b0514f6b82)
+
+
+Git checkout develop 
+git pull origin develop
+
+Este seria el resultado que hasta ahora estoy posicionado en Develop y el resto son los cambios que se fueron haciendo
+
+
+![image](https://github.com/danielgallo78/GitFlow-en-GitHub/assets/130160711/5240f423-909c-46c2-94e5-09381d4a5b2b)
+
+
 
 
 
